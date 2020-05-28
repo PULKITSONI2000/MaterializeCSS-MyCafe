@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Coffee King</title>
+    <!-- google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Chelsea+Market&family=Tenali+Ramakrishna&display=swap"
+      rel="stylesheet"
+    />
+    <!-- M icons -->
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+
+    <!-- Actual  m -->
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <!-- costom css    -->
+    <link rel="stylesheet" href="css/style.css">
+    </head>
+    
+    
+    <body>
+        <section class="fnavbar">
+            <nav class="nav-fixed">
+                <div class="nav-wrapper">
+                  <a href="#" class="brand-logo">CafaKing</a>
+                  <a href="#" data-target="mobile-demo" class="sidenav-trigger"
+                  ><i class="material-icons">menu</i></a>
+                  <ul id="nav-mobile" class="right hide-on-med-and-down">
+                    <li><a href="#" onclick="toggleModal();">Home</a></li>
+                    <li><a href="#" onclick="toggleModal();">About Us</a></li>
+                    <li><a href="#" onclick="toggleModal();">Coffee</a></li>
+                    <li><a href="#" onclick="toggleModal();">Surprise!</a></li>
+                    <li><a href="#" onclick="toggleModal();">Contact</a></li>
+                  </ul>
+                </div>
+                
+              </nav>
+            
+              <ul class="sidenav" id="mobile-demo">
+                li><a href="#" onclick="toggleModal();">Home</a></li>
+                li><a href="#" onclick="toggleModal();">About Us</a></li>
+                li><a href="#" onclick="toggleModal();">Coffee</a></li>
+                li><a href="#" onclick="toggleModal();">Surprise!</a></li>
+                li><a href="#" onclick="toggleModal();">Contact</a></li>
+              </ul>
+        </section>
+    
+        <section class="fslider">
+          <div class="slider">
+            <ui class="slides">
+              <li>
+                <img src="images/banner1.png" alt="image one">
+                <div class="caption center-align white-text">
+                  <h3>CakeKing - Quality cafe</h3>
+                  <h5 class="light text-lighten-3">We serve one of the beast coffee around</h5>
+                </div>
+              </li>
+              <li>
+                <img src="images/banner2.png" alt="image one">
+                <div class="caption center-align white-text">
+                  <h3>CakeKing - Finnest coffee</h3>
+                  <h5 class="light text-lighten-3">We serve one of the beast coffee around</h5>
+                </div>
+              </li>
+            </ui>
+          </div>
+        </section>
+    
+        <section class="infomodal">
+
+            <div id="modal3" class="modal">
+                <div class="modal-content">
+                    <h4 id="info-modal-heading">Link Desabled</h4>
+                    <p id="info-modal-content">sorry! all links are desabled now</p>
+                </div>
+                <div class="modal-footer">
+                    <a href="#" class="modal-close waves-effect btn-flat">Close</a>
+                </div>
+            </div>
+        </section>
+    
+    
+    </body>
+
+
+    <!-- jquery -->
+  <script
+  src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js"
+  integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ="
+  crossorigin="anonymous"
+></script>
+
+<!-- M script -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+<!-- custom js -->
+<script src="js/loader.js"></script>
+
+</html>
