@@ -1,3 +1,45 @@
 .nav-wrapper {
+  background-color: #753b30;
+}
+
+.slider .slides li {
+  list-style: none;
+}
+
+.slider .indicators .indicator-item.active {
   background-color: #6f4037;
+}
+
+.move {
+  margin-top: 60px;
+  margin-bottom: 20px;
+}
+
+.parallax-container {
+  min-height: 280px;
+  height: auto;
+}
+
+.icon-coffee {
+  color: #ffcdc3;
+}
+
+.footer-one {
+  background: #6f4037;
+}
+.footer-two {
+  background: #532e27;
+}
+
+body,
+.brownbg {
+  background-color: #41231d;
+  color: #ffcdc3;
+}
+
+.card,
+.card-content,
+.card-title {
+  background-color: #532e27;
+  color: #ffcdc3;
 }
